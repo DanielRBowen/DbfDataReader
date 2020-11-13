@@ -47,7 +47,7 @@ namespace DbfDataReader
         {
             try
             {
-                DbfTable.Close();
+                DbfTable?.Close();
             }
             finally
             {
